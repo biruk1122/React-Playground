@@ -5,6 +5,7 @@ import Counter from "./Counter"
 import List from "./List"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
+import MyComponent from "./MyComponent"
 
 function App() {
   const fruits = [
@@ -36,6 +37,7 @@ function App() {
       <Button />
       <Counter />
       <ColorPicker />
+      <MyComponent />
     </div>
   )
 }
