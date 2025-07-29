@@ -1,5 +1,6 @@
 import Button from "./Button"
 import Card from "./Card"
+import ColorPicker from "./ColorPicker"
 import Counter from "./Counter"
 import List from "./List"
 import Student from "./Student"
@@ -34,6 +35,7 @@ function App() {
       ) : null}
       <Button />
       <Counter />
+      <ColorPicker />
     </div>
   )
 }
