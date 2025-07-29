@@ -7,6 +7,7 @@ import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 import MyComponent from "./MyComponent"
 import UpdateArrays from "./UpdateArrays"
+import ArrayObject from "./ArrayObject"
 
 function App() {
   const fruits = [
@@ -40,6 +41,7 @@ function App() {
       <ColorPicker />
       <MyComponent />
       <UpdateArrays />
+      <ArrayObject />
     </div>
   )
 }
