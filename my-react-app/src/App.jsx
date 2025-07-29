@@ -8,6 +8,7 @@ import UserGreeting from "./UserGreeting"
 import MyComponent from "./MyComponent"
 import UpdateArrays from "./UpdateArrays"
 import ArrayObject from "./ArrayObject"
+import ToDoList from "./ToDoList"
 
 function App() {
   const fruits = [
@@ -42,6 +43,7 @@ function App() {
       <MyComponent />
       <UpdateArrays />
       <ArrayObject />
+      <ToDoList />
     </div>
   )
 }
