@@ -12,6 +12,7 @@ import ToDoList from "./ToDoList"
 import UseEffect from "./UseEffect"
 import DigitalClock from "./DigitalClock"
 import ComponentA from "./ComponentsA"
+import StopWatch from "./StopWatch"
 
 function App() {
   const fruits = [
@@ -50,6 +51,7 @@ function App() {
       <UseEffect />
       <DigitalClock />
       <ComponentA />
+      <StopWatch />
     </div>
   )
 }
