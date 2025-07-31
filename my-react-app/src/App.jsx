@@ -9,6 +9,9 @@ import MyComponent from "./MyComponent"
 import UpdateArrays from "./UpdateArrays"
 import ArrayObject from "./ArrayObject"
 import ToDoList from "./ToDoList"
+import UseEffect from "./UseEffect"
+import DigitalClock from "./DigitalClock"
+import ComponentA from "./ComponentsA"
 
 function App() {
   const fruits = [
@@ -44,6 +47,9 @@ function App() {
       <UpdateArrays />
       <ArrayObject />
       <ToDoList />
+      <UseEffect />
+      <DigitalClock />
+      <ComponentA />
     </div>
   )
 }
